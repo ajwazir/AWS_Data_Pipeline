@@ -1,4 +1,5 @@
 # AWS Data Pipeline with Python and MySQL
+## [If something is not clear, please check my blog post for further explanation of this work on medium.com](https://medium.com/@asimjkw/building-an-automated-data-science-pipeline-web-scraping-mysql-and-amazon-aws-c9aa65f2bfdc)
 **This repository aims to guide and help create an automated data pipeline on AWS using Python and MySQL, utilizing services such as RDS, Lambda, and CloudWatch. The pipeline is designed to gather information on the geographic location and population size of pre-specified cities in Germany by web scraping data from Wikipedia. It also retrieves weather information and data on arriving flights for the next day (CET). All the collected data is stored in a relational database consisting of tables for cities, airports, population, weather, and flights.**
 Prerequisites
 Before running this project, make sure you have the following:
